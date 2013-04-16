@@ -1,35 +1,10 @@
-*.py[cod]
+def perfect(n):
+  add = 0
+	for i in xrange (1, n):
+		if n % i == 0:
+			add += i
 
-# C extensions
-*.so
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+	if add == n:
+                print "you found a perfect number!!"
+        else:
+                print "That number is not perfect..."
