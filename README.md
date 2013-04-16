@@ -16,3 +16,11 @@ is divisible by) It will then take that number (currently set as i) and add it t
 for loop is complete the program compares add (which is now the sum of all the divisors of the 
 entered number) and compares it to the original number entered. If they are equal then you have 
 found a perfect number
+
+Examples:
+
+perfect (6)
+you found a perfect number!! 
+perfect (9)
+That number is not perfect...
+
