@@ -23,4 +23,3 @@ perfect (6)
 you found a perfect number!! 
 perfect (9)
 That number is not perfect...
-
