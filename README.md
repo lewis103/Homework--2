@@ -1,6 +1,21 @@
 Homework--2
 ===========
 
+def perfect(n):
+  add = 0
+  for i in xrange (1, n):
+		if n % i == 0:
+			add += i
+
+	if add == n:
+                print "you found a perfect number!!"
+        else:
+                print "That number is not perfect..."
+                
+Description:
+============
+
+
 What it does:
 
 This program takes in a number (n) and will tell the user if it is a perfect number or not. 
