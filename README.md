@@ -1,17 +1,17 @@
 Homework--2
 ===========
 
+    def perfect(n):
+	    add = 0
+	    for i in xrange (1, n):
+		      if n % i == 0:
+			      add += i
 
-def perfect(n):
-  add = 0
-  for i in xrange (1, n):
-		if n % i == 0:
-			add += i
-	if add == n:
-                print "you found a perfect number!!"
-        else:
-                print "That number is not perfect..."
-                
+	      if add == n:
+                 print "you found a perfect number!!"
+          else:
+                 print "That number is not perfect..."
+                  
 Description:
 ============
 
@@ -33,6 +33,7 @@ entered number) and compares it to the original number entered. If they are equa
 found a perfect number
 
 Examples:
+=========
 
 perfect (6)
 you found a perfect number!! 
