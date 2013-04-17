@@ -1,12 +1,12 @@
 Homework--2
 ===========
 
+
 def perfect(n):
   add = 0
   for i in xrange (1, n):
 		if n % i == 0:
 			add += i
-
 	if add == n:
                 print "you found a perfect number!!"
         else:
